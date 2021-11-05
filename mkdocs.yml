@@ -1,0 +1,18 @@
+site_name: Dash MVC template
+docs_dir: docs
+site_dir: docs_html
+
+theme:
+  name: material
+
+plugins:
+  - search
+  - mkdocstrings:
+      watch:
+        - app
+
+nav:
+  - Home: index.md
+  - App:
+      - Architektur: architecture.md
+  - Setup: setup.md

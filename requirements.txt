@@ -1,0 +1,9 @@
+git+https://git.helvetia.group/scm/anaser/werkzeug4py.git
+autopep8
+dash
+ipykernel
+mkdocs
+mkdocs-material
+mkdocstrings
+pandas
+pylint
