@@ -1,4 +1,3 @@
-
 from dash import html, dcc
 
 content = html.Div(id='page-content')

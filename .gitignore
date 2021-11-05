@@ -1,2 +1,3 @@
 venv/
 *.pyc
+app/data/temp/dawis_dependencies.pkl

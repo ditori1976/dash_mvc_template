@@ -1,10 +1,8 @@
-# %%
-from pathlib import Path
-# import networkx as nx
-
 from dash import Dash
-from friss.network.layout import layout
+from app.layout import layout
 
-app = Dash()
+app = Dash(
+    __name__,
+    suppress_callback_exceptions=True)
 
 app.layout = layout

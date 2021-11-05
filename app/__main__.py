@@ -1,5 +1,6 @@
-from friss.network.app import app
-from friss.network.routes import render_page_content
+from app.app import app
+from app.routes import render_page_content
+from app.pages.table import callbacks
 
 
 if __name__ == '__main__':
